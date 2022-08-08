@@ -1,0 +1,25 @@
+@media (max-width: 740px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 20%;
+    }
+
+    .img-item-desktop{
+        display: none;
+    }
+
+    .img-item-mobile{
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .review{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
